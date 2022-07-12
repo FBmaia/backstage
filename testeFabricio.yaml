@@ -1,16 +1,16 @@
-id: architecture-overview
-title: Architecture overview
-description: Documentation on Architecture overview
----
-
-## Terminology
-
-Backstage is constructed out of three parts. We separate Backstage in this way
-because we see three groups of contributors that work with Backstage in three
-different ways.
-
-- Core - Base functionality built by core developers in the open source project.
-- App - The app is an instance of a Backstage app that is deployed and tweaked.
-  The app ties together core functionality with additional plugins. The app is
-  built and maintained by app developers, usually a productivity team within a
-  company.
+apiVersion: teste-fabricio
+kind: Component
+metadata:
+  name: teste 1
+  description: |
+    teste teste teste
+  links:
+    - title: JSON
+      url: http://jsonviewer.stack.hu/#http://
+  annotations:
+    github.com/project-slug: backstage/backstage
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  owner: guest
+  lifecycle: experimental
